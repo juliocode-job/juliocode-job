@@ -1,5 +1,3 @@
-Júlio Emanoel Lemos De França
-
 AI & Automation Engineer | Building Solutions That Drive Business value!
 
 I specialize in transforming business complexity into automated, scalable AI solutions that drive efficiency, accuracy, and measurable growth. My approach is to bridge the gap between technical execution and strategic business outcomes, ensuring every project delivers a clear and significant return on investment (ROI).
@@ -10,7 +8,7 @@ Core Competencies:
 
 AI & Machine Learning: Agentic AI, NLP, Generative AI, Computer Vision, Deep Learning, Prompt Engineering, MLOps
 
-Frameworks & Libraries: LangChain, TensorFlow, Keras, PyTorch, Scikit-learn, Pandas, NumPy, spaCy, NLTK
+Frameworks & Libraries: LangChain, CrewAI, LlamaIndex, TensorFlow, Keras, PyTorch, Scikit-learn, Pandas, NumPy, NLTK
 
 Platforms & Tools: OpenAI (GPT-4), Google (Gemini), Anthropic (Claude), n8n, Dialogflow, AWS, GCP, Docker, Git
 
@@ -20,6 +18,7 @@ Languages: Python
 A quick summary of the key projects I've developed. Each summary contains a case study explaining the business problem, my solution, the technologies used, and the impact it delivered.
 
 🧠 TeamBrain - Secure Enterprise AI Agent
+
 Problem: Employees waste countless hours searching for information across siloed wikis, drives, and documents. This not only kills productivity but also creates a security risk, as there's no guarantee that users only see the data they are authorized to access.
 
 Solution: I built TeamBrain, an enterprise AI assistant that provides instant, trustworthy answers from multiple data sources. The core of the solution is a secure, ACL-aware Retrieval-Augmented Generation (RAG) pipeline. It checks each user's permissions before retrieving information from a vector database, ensuring that data security is at the heart of every answer.
@@ -31,6 +30,7 @@ Python, LangChain, RAG, Flask, OpenAI (GPT-4o), ChromaDB (Vector Database), Dock
 Impact: Empowers employees with instant access to the information they need, boosting productivity and decision-making. It guarantees data security by enforcing access controls on every query, significantly reducing the risk of internal data leaks.
 
 🤖 Autonomous AI Sales Agent for Lead Outreach
+
 Problem: Sales teams were losing time on manual lead qualification and follow-ups, causing high-value leads to be missed.
 
 Solution: I built a 24/7 autonomous agent that perceives customer data, reasons to qualify leads, and acts by sending hyper-personalized emails and booking meetings. It uses a vector database for long-term memory, ensuring every interaction is context-aware.
