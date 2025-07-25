@@ -19,6 +19,17 @@ Languages: Python
 🏆 Golden Projects
 A quick summary of the key projects I've developed. Each summary contains a case study explaining the business problem, my solution, the technologies used, and the impact it delivered.
 
+🧠 TeamBrain - Secure Enterprise AI Agent
+Problem: Employees waste countless hours searching for information across siloed wikis, drives, and documents. This not only kills productivity but also creates a security risk, as there's no guarantee that users only see the data they are authorized to access.
+
+Solution: I built TeamBrain, an enterprise AI assistant that provides instant, trustworthy answers from multiple data sources. The core of the solution is a secure, ACL-aware Retrieval-Augmented Generation (RAG) pipeline. It checks each user's permissions before retrieving information from a vector database, ensuring that data security is at the heart of every answer.
+
+Skills and Technologies:
+
+Python, LangChain, RAG, Flask, OpenAI (GPT-4o), ChromaDB (Vector Database), Docker.
+
+Impact: Empowers employees with instant access to the information they need, boosting productivity and decision-making. It guarantees data security by enforcing access controls on every query, significantly reducing the risk of internal data leaks.
+
 🤖 Autonomous AI Sales Agent for Lead Outreach
 Problem: Sales teams were losing time on manual lead qualification and follow-ups, causing high-value leads to be missed.
 
