@@ -1,153 +1,179 @@
-# AI Consultant & Engineer | Building Solutions That Drive Business Value!
+# Mid GenAI Engineer | Building Production-Ready AI Systems That Scale
 
-I specialize in transforming business complexity into automated, scalable AI solutions that drive efficiency, accuracy, and measurable growth. My approach is to bridge the gap between technical execution and strategic business outcomes, ensuring every project delivers a clear and significant return on investment (ROI).
+**GenAI Engineer at Capgemini**, focused on building enterprise-grade AI systems that move from experimentation to real, scalable products.
 
-With a foundation in both Computer Networks and Business Administration, I bring a unique perspective that allows me to architect solutions that are not only technically robust but also perfectly aligned with business KPIs. As a 2x Certified AI professional, including the Salesforce AI specialist, I leverage advanced frameworks like LangChain, RAG, and LLMs to build intelligent systems that solve real-world challenges.
+I work at the intersection of **LLMs, product thinking, and cloud architecture**, helping teams go beyond proofs of concept into reliable, secure, and observable GenAI solutions aligned with real business constraints.
 
-## Core Competencies:
+My expertise spans **end-to-end AI architecture, Agentic Systems, and LLMOps**, with hands-on experience designing, deploying, and maintaining production-ready AI workflows. I frequently bridge technical teams and business stakeholders to ensure feasibility, robustness, and long-term value — not demos for demos' sake.
 
-**AI & Machine Learning:** Agentic AI, Chatbot Development, NLP, Generative AI, Computer Vision, Prompt Engineering, MLOps
-
-**Frameworks & Libraries:** LangChain, CrewAI, LlamaIndex, TensorFlow, Keras, PyTorch, Scikit-learn, Pandas, NumPy, NLTK
-
-**Platforms & Tools:** LanGraph, LangSmith, OpenAI (GPT-4), Anthropic (Claude), n8n, AWS, GCP, Azure, Docker, Git
-
-**Languages:** Python
-
-## 🏆 Golden Projects
-A quick summary of the key projects I've developed. Each summary contains a case study explaining the business problem, my solution, the technologies used, and the impact it delivered.
-
-### 🎯 Agentic Market Research Team - Autonomous AI Intelligence System
-
-**Problem:** Companies struggle to truly understand their customers' psychological drivers, losing deals to competitors who "speak their language." Traditional market research delivers generic personas that don't capture the unconscious motivations driving purchase decisions. Meanwhile, managing multiple AI agents typically requires complex orchestration and lacks persistent learning.
-
-**Solution:** I architected a Level 5 autonomous agent system with 6 specialized AI agents that decode customer psychology at depth. The system features persistent memory via Qdrant vector database, enabling agents to learn from every interaction and improve autonomously. Agents collaborate through LangGraph workflows, sharing insights and building on each other's discoveries. The entire team is accessible through natural Slack commands, allowing non-technical users to conduct deep market research through conversation.
-
-**Skills and Technologies:**
-
-Python, LangChain, LangGraph, Anthropic Claude 3.5 Sonnet, Qdrant (Vector Database), Slack Bolt, Sentence Transformers, FastAPI, Docker
-
-**Impact:** Delivers psychological profiles so accurate that customers feel "finally understood," extracting 40+ authentic voice patterns for marketing copy. The system achieves 3x higher conversion rates for clients using extracted language patterns and reduces market research time from weeks to hours while continuously improving through autonomous learning.
+Certified as a **Microsoft Azure AI Engineer**, with additional AI-focused credentials, I emphasize applied AI, observability, governance, and measurable outcomes in regulated and enterprise environments.
 
 ---
 
-### 🚀 AI-Enhanced Todo List - Full Stack Solution with Dual Interface
+## 📊 Selected Impact
 
-**Problem:** Traditional todo apps lack intelligence to help users actually complete tasks effectively. Users create vague tasks like "plan trip" without actionable guidance, leading to procrastination and incomplete projects. Additionally, teams needed both web and conversational interfaces to manage tasks across different contexts.
-
-**Solution:** I built a full-stack todo application with AI enhancement that transforms simple task entries into actionable plans. Every task is automatically enhanced by OpenAI GPT-3.5 with detailed descriptions and step-by-step guidance. The solution features dual interfaces: a Next.js web app for visual management and an n8n-powered chatbot for conversational task creation. Both interfaces share the same Supabase database, ensuring seamless synchronization.
-
-**Skills and Technologies:**
-
-Next.js 14, TypeScript, React 18, Supabase (PostgreSQL), OpenAI GPT-3.5, n8n Workflow Automation, Vercel, Tailwind CSS
-
-**Impact:** Transforms vague tasks into clear action plans with 3-5 specific steps per task. Users complete tasks 40% faster with AI-generated guidance. The dual-interface approach increased task creation by 60% as users could add tasks via chat during meetings or through the web when planning. Zero authentication friction led to 100% user adoption in pilot teams.
+| Metric | Result |
+|--------|--------|
+| Automation efficiency for business processes | **+40%** |
+| Data classification and extraction workflows | **+50% faster** |
+| Conversational AI accuracy | **+35%** |
+| Solution relevance using RAG and vector databases | **+30%** |
 
 ---
 
-### 🧠 TeamBrain - Secure Enterprise AI Agent
+## 🛠️ Technical Stack
 
-**Problem:** Employees waste countless hours searching for information across siloed wikis, drives, and documents. This not only kills productivity but also creates a security risk, as there's no guarantee that users will only see the data they are authorized to access.
+**Languages & Backend:** Python, Node.js, TypeScript, FastAPI
 
-**Solution:** I built TeamBrain, an enterprise AI assistant that provides instant, trustworthy answers from multiple data sources. The core of the solution is a secure, ACL-aware Retrieval-Augmented Generation (RAG) pipeline. It checks each user's permissions before retrieving information from a vector database, ensuring that data security is at the heart of every answer.
+**LLMs & Frameworks:** LangChain, LangGraph, CrewAI, AutoGen, LlamaIndex
 
-**Skills and Technologies:**
+**Cloud & Infrastructure:** Azure AI Foundry, AWS, GCP, Docker, Kubernetes, Redis (queues & caching)
 
-Python, LangChain, RAG, Flask, OpenAI (GPT-4o), ChromaDB (Vector Database), Docker.
+**Data & Retrieval:** MongoDB, PostgreSQL, Vector Databases (Pinecone, Qdrant, Milvus, ChromaDB)
 
-**Impact:** Empowers employees with instant access to the information they need, boosting productivity and decision-making. It guarantees data security by enforcing access controls on every query, significantly reducing the risk of internal data leaks.
+**Observability & Evaluation:** LangSmith, tracing, prompt evaluation, monitoring, custom metrics
+
+**Additional:** OpenAI (GPT-4), Anthropic (Claude), n8n, Git
+
+---
+
+## 🎓 Certifications
+
+- **Microsoft Azure AI Engineer Associate (AI-102)**
+- **Databricks Generative AI Engineer Associate**
+- **Google Generative AI Leader (GCP)**
+- Salesforce AI Specialist
+- Salesforce AI Associate
+- Oracle AI Foundations
+- Microsoft Azure AI Fundamentals (AI-900)
+
+---
+
+## 🏆 Featured Projects
+
+A selection of key projects demonstrating end-to-end AI solution delivery. Each includes the business problem, solution architecture, technologies used, and measurable impact.
+
+### 🏢 AI-Powered Procurement Intelligence Platform — Enterprise Microservices
+
+**Problem:** A Fortune 500 telecom provider needed to process thousands of government tenders efficiently. Manual PDF ingestion, data extraction, and classification created bottlenecks, while batch uploads caused system timeouts and silent failures in the AI pipeline compromised data integrity.
+
+**Solution:** Contributed to an enterprise-grade microservices platform featuring LLM-based data extraction, semantic embeddings, and real-time analytics. Implemented MongoDB-based job queues with HPA scaling, exponential backoff retry mechanisms, and circuit breaker patterns. Built comprehensive observability with correlation ID tracking across services and structured logging for production debugging.
+
+**Stack:** TypeScript, Node.js, Fastify, MongoDB, LangChain, Azure OpenAI, Azure Kubernetes Service (AKS), Azure DevOps, Docker, Zod, Pino
+
+**Impact:** Eliminated timeouts on batch uploads (50+ documents). Reduced integration delays through comprehensive API documentation. Enabled zero-downtime deployments with blue-green strategy and automated rollbacks.
+
+---
+
+### 🔧 AI-Powered Pull Request Automation — Autonomous Code Fixing System
+
+**Problem:** Development teams spend significant time on repetitive bug fixes and manual PR creation. Error-to-fix cycles are slow, and there's no systematic way to ensure proposed changes are safe and minimal before human review.
+
+**Solution:** Built an end-to-end automation system that transforms error reports into validated pull requests. Uses Claude Opus for error analysis and constraint planning, Claude Sonnet for minimal diff generation. Features a 6-layer validation system (status, confidence, diff existence, language consistency, change limits, line verification) with safe fallbacks and review flagging for uncertain fixes.
+
+**Stack:** n8n, Claude Opus, Claude Sonnet, GitHub API, Webhooks
+
+**Impact:** Automated the entire error-to-PR pipeline while keeping humans in the loop. PRs include AI justification and confidence levels. System tracks approval/rejection outcomes for continuous improvement.
+
+---
+
+### 🎯 Agentic Market Research Team — Autonomous AI Intelligence System
+
+**Problem:** Companies struggle to understand their customers' psychological drivers, losing deals to competitors who "speak their language." Traditional market research delivers generic personas that miss unconscious motivations. Managing multiple AI agents typically requires complex orchestration and lacks persistent learning.
+
+**Solution:** Architected a Level 5 autonomous agent system with 6 specialized AI agents that decode customer psychology at depth. Features persistent memory via Qdrant vector database, enabling agents to learn from every interaction. Agents collaborate through LangGraph workflows, accessible through natural Slack commands for non-technical users.
+
+**Stack:** Python, LangChain, LangGraph, Anthropic Claude, Qdrant, Slack Bolt, Sentence Transformers, FastAPI, Docker
+
+**Impact:** 3x higher conversion rates using extracted language patterns. Reduced market research time from weeks to hours with continuous autonomous improvement.
+
+---
+
+### 🚀 AI-Enhanced Todo List — Full Stack Solution with Dual Interface
+
+**Problem:** Traditional todo apps lack intelligence to help users complete tasks effectively. Users create vague tasks without actionable guidance, leading to procrastination. Teams needed both web and conversational interfaces across different contexts.
+
+**Solution:** Built a full-stack todo application with AI enhancement that transforms simple task entries into actionable plans. Features dual interfaces: Next.js web app for visual management and n8n-powered chatbot for conversational task creation, sharing the same Supabase database.
+
+**Stack:** Next.js 14, TypeScript, React 18, Supabase (PostgreSQL), OpenAI GPT-3.5, n8n, Vercel, Tailwind CSS
+
+**Impact:** Users complete tasks 40% faster with AI-generated guidance. Dual-interface approach increased task creation by 60%.
+
+---
+
+### 🧠 TeamBrain — Secure Enterprise AI Agent
+
+**Problem:** Employees waste hours searching for information across siloed wikis, drives, and documents. No guarantee users only access data they're authorized to see.
+
+**Solution:** Built an enterprise AI assistant with a secure, ACL-aware RAG pipeline. Checks user permissions before retrieving information from vector database, ensuring data security at the core of every response.
+
+**Stack:** Python, LangChain, RAG, Flask, OpenAI GPT-4o, ChromaDB, Docker
+
+**Impact:** Instant access to authorized information with enforced access controls, significantly reducing internal data leak risk.
 
 ---
 
 ### 🤖 Autonomous AI Sales Agent for Lead Outreach
 
-**Problem:** Sales teams were losing time on manual lead qualification and follow-ups, causing high-value leads to be missed.
+**Problem:** Sales teams losing time on manual lead qualification and follow-ups, causing high-value leads to slip through.
 
-**Solution:** I built a 24/7 autonomous agent that perceives customer data, reasons to qualify leads, and acts by sending hyper-personalized emails and booking meetings. It uses a vector database for long-term memory, ensuring every interaction is context-aware.
+**Solution:** Built a 24/7 autonomous agent that perceives customer data, reasons to qualify leads, and acts by sending hyper-personalized emails and booking meetings. Uses vector database for long-term memory and context-aware interactions.
 
-**Skills and Technologies:**
+**Stack:** Agentic AI, n8n, OpenAI, Supabase (Vector Database)
 
-Agentic AI, n8n, OpenAI, Supabase (Vector Database)
-
-**Impact:** Eliminated the outreach bottleneck, allowing the sales team to focus 100% on closing deals.    
+**Impact:** Eliminated outreach bottleneck, allowing sales team to focus 100% on closing deals.
 
 ---
 
-### 🎙️ ConvoBot - Intelligent AI Meeting Assistant
+### 🎙️ ConvoBot — Intelligent AI Meeting Assistant
 
-**Problem:** Critical decisions and action items were being lost in manual note-taking during meetings, killing productivity.
+**Problem:** Critical decisions and action items lost in manual note-taking during meetings.
 
-**Solution:** I developed a voice-activated AI agent that joins meetings (Google Meet, Zoom), provides real-time transcription, and delivers intelligent summaries. It uses RAG to create a searchable knowledge base of all past conversations.
+**Solution:** Developed a voice-activated AI agent that joins meetings (Google Meet, Zoom), provides real-time transcription, and delivers intelligent summaries. Uses RAG to create a searchable knowledge base of all past conversations.
 
-**Skills and Technologies:**
+**Stack:** Voice AI, RAG, LangChain, Whisper, FastAPI
 
-Voice AI, RAG, LangChain, Whisper, FastAPI
-
-**Impact:** Automates 100% of note-taking, reduces post-meeting admin work by 90%, and ensures no decision is ever lost.    
+**Impact:** Automated 100% of note-taking, reduced post-meeting admin work by 90%.
 
 ---
 
-### 📄 AI-Powered HR Assistant for Candidate Experience
+### ⚙️ ZESU — Intelligent Automation for IT Support
 
-**Problem:** The HR team was spending over 10 hours a week on repetitive applicant questions, creating a poor candidate experience.
+**Problem:** Enterprise IT team overwhelmed with repetitive Level 2 support requests, causing delays and pulling senior staff from critical incidents.
 
-**Solution:** I built a full-stack chatbot with a decoupled JSON knowledge base, empowering the non-technical HR team to update FAQs instantly without any code changes.
+**Solution:** Implemented an internal AI chatbot using RAG pipeline to securely access internal knowledge bases, providing real-time guidance for 143+ distinct IT procedures.
 
-**Skills and Technologies:**
+**Stack:** AI Agents, RAG, LangChain, TARS
 
-Python, Scikit-learn, Flask API, NLP, JSON
-
-**Impact:** Reduced HR workload by 45% and improved candidate engagement with 24/7, instant responses.    
-
----
-
-### ⚙️ ZESU – Intelligent Automation for IT Support
-
-**Problem:** An enterprise IT team was overwhelmed with a high volume of repetitive Level 2 support requests, causing delays and pulling senior staff from critical incidents.
-
-**Solution:** I implemented an internal AI chatbot using a RAG pipeline to securely access internal knowledge bases, providing real-time, step-by-step guidance for 143+ distinct IT procedures.
-
-**Skills and Technologies:**
-
-AI Agents, RAG, LangChain, TARS (Low-code solution)
-
-**Impact:** Reduced average response times for L2 queries by 40% and increased IT team productivity.    
+**Impact:** Reduced L2 query response times by 40%, increased IT team productivity.
 
 ---
 
 ### 🎓 AI Tutor Evaluation for EdTech Safety & Efficacy
 
-**Problem:** An EdTech client needed to integrate LLMs as AI tutors but faced significant risks from factual inaccuracies (hallucinations) that could harm learner trust and brand reputation.
+**Problem:** EdTech client needed to integrate LLMs as AI tutors but faced risks from hallucinations that could harm learner trust.
 
-**Solution:** I developed a comprehensive evaluation framework and a multi-faceted rubric to benchmark the performance and safety of LLMs like Gemini and ChatGPT for educational use.
+**Solution:** Developed comprehensive evaluation framework and multi-faceted rubric to benchmark LLM performance and safety for educational use.
 
-**Skills and Technologies:**
+**Stack:** LLM Evaluation, Responsible AI, Prompt Engineering
 
-LLM Evaluation, Responsible AI, Prompt Engineering
-
-**Impact:** Provided recommendations that led to a 25% reduction in model hallucinations on key subjects.    
+**Impact:** Recommendations led to 25% reduction in model hallucinations on key subjects.
 
 ---
 
-### 🎧 High-Fidelity Data QA for Conversational AI
+## 💡 What I Bring
 
-**Problem:** A leading tech company's voice assistant was underperforming due to inconsistent and noisy audio training data, leading to a frustrating user experience.
+I thrive in global environments where **innovation meets execution**, building AI systems designed to scale, perform, and deliver sustained ROI. My approach emphasizes:
 
-**Solution:** After passing a rigorous certification, I performed in-depth data validation and annotation on large-scale audio datasets, applying strict QA protocols to correct linguistic and acoustic inconsistencies.
-
-**Skills and Technologies:**
-
-Data Annotation, ASR/NLU, Quality Assurance, TTS & STT.
-
-**Impact:** Contributed to a 15% reduction in the Word Error Rate (WER) for the client's primary ASR model. 
+- **Production-first mindset:** Solutions built for reliability, not just impressive demos
+- **Observability & governance:** Tracing, monitoring, and compliance for enterprise environments
+- **Business alignment:** Bridging technical teams and stakeholders for measurable outcomes
+- **End-to-end ownership:** From architecture to deployment to maintenance
 
 ---
 
-If you want more details.. check my repositories! :)
+---
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/servicesfromjulio/)
 
-
-
-
-
-
+📫 **Let's connect** — I'm always interested in challenging GenAI problems at enterprise scale.
