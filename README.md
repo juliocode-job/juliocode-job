@@ -1,4 +1,4 @@
-# Mid GenAI Engineer | Building Production-Ready AI Systems That Scale
+# GenAI Engineer | Building Production-Ready AI Systems That Scale
 
 **GenAI Engineer at Capgemini**, focused on building enterprise-grade AI systems that move from experimentation to real, scalable products.
 
@@ -6,7 +6,7 @@ I work at the intersection of **LLMs, product thinking, and cloud architecture**
 
 My expertise spans **end-to-end AI architecture, Agentic Systems, and LLMOps**, with hands-on experience designing, deploying, and maintaining production-ready AI workflows. I frequently bridge technical teams and business stakeholders to ensure feasibility, robustness, and long-term value — not demos for demos' sake.
 
-Certified as a **Microsoft Azure AI Engineer**, with additional AI-focused credentials, I emphasize applied AI, observability, governance, and measurable outcomes in regulated and enterprise environments.
+Certified as a **Microsoft Azure AI Engineer**, with 7 additional AI-focused certifications accross different clouds, I emphasize applied AI, observability, governance, and measurable outcomes in regulated and enterprise environments.
 
 ---
 
@@ -42,6 +42,7 @@ Certified as a **Microsoft Azure AI Engineer**, with additional AI-focused crede
 - **Microsoft Azure AI Engineer Associate (AI-102)**
 - **Databricks Generative AI Engineer Associate**
 - **Google Generative AI Leader (GCP)**
+- **AWS Certified AI Praticcioner**
 - Salesforce AI Specialist
 - Salesforce AI Associate
 - Oracle AI Foundations
@@ -89,19 +90,7 @@ A selection of key projects demonstrating end-to-end AI solution delivery. Each 
 
 ---
 
-### 🚀 AI-Enhanced Todo List — Full Stack Solution with Dual Interface
-
-**Problem:** Traditional todo apps lack intelligence to help users complete tasks effectively. Users create vague tasks without actionable guidance, leading to procrastination. Teams needed both web and conversational interfaces across different contexts.
-
-**Solution:** Built a full-stack todo application with AI enhancement that transforms simple task entries into actionable plans. Features dual interfaces: Next.js web app for visual management and n8n-powered chatbot for conversational task creation, sharing the same Supabase database.
-
-**Stack:** Next.js 14, TypeScript, React 18, Supabase (PostgreSQL), OpenAI GPT-3.5, n8n, Vercel, Tailwind CSS
-
-**Impact:** Users complete tasks 40% faster with AI-generated guidance. Dual-interface approach increased task creation by 60%.
-
----
-
-### 🧠 TeamBrain — Secure Enterprise AI Agent
+### 🧠 TeamBrain MVP — Secure Enterprise AI Agent
 
 **Problem:** Employees waste hours searching for information across siloed wikis, drives, and documents. No guarantee users only access data they're authorized to see.
 
