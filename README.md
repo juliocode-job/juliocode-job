@@ -50,103 +50,55 @@ Certified as a **Microsoft Azure AI Engineer**, with 7 additional AI-focused cer
 
 ---
 
-## 🏆 Featured Projects
+## 🏆 Featured Projects in my portfolio
 
-A selection of key projects demonstrating end-to-end AI solution delivery. Each includes the business problem, solution architecture, technologies used, and measurable impact.
+A selection of key projects demonstrating end-to-end AI solution delivery. Click on the titles to explore the **documentation** for each system. As some involve NDAs and anonymization.
 
-### 🏢 AI-Powered Procurement Intelligence Platform — Enterprise Microservices
+### 🚀 [Strategic Sourcing Intelligence Engine — MCP Server](https://github.com/juliocode-job/AI-Automation-Portfolio/blob/main/mcp-agent-microservices/PORTFOLIO_SOURCING_ENGINE.md)
 
-**Problem:** A Fortune 500 telecom provider needed to process thousands of government tenders efficiently. Manual PDF ingestion, data extraction, and classification created bottlenecks, while batch uploads caused system timeouts and silent failures in the AI pipeline compromised data integrity.
+**Problem:** Procurement teams spend hours manually auditing commercial proposals and spreadsheets. Static analysis tools fail to handle unstructured financial data and complex tax logic across various file formats.
 
-**Solution:** Contributed to an enterprise-grade microservices platform featuring LLM-based data extraction, semantic embeddings, and real-time analytics. Implemented MongoDB-based job queues with HPA scaling, exponential backoff retry mechanisms, and circuit breaker patterns. Built comprehensive observability with correlation ID tracking across services and structured logging for production debugging.
+**Solution:** Developed a high-performance **MCP (Model Context Protocol)** Server that allows LLMs to act as specialized procurement agents. Implemented semantic header mapping for template-less data discovery and a multi-tier delta calculation engine for 100% audit accuracy. Built a "Stateless Restore" pattern to maintain complex analysis state across tool calls.
 
-**Stack:** TypeScript, Node.js, Fastify, MongoDB, LangChain, Azure OpenAI, Azure Kubernetes Service (AKS), Azure DevOps, Docker, Zod, Pino
+**Stack:** Python, MCP (Model Context Protocol), Pandas, NumPy, AsyncIO, XlsxWriter, ReportLab.
 
-**Impact:** Eliminated timeouts on batch uploads (50+ documents). Reduced integration delays through comprehensive API documentation. Enabled zero-downtime deployments with blue-green strategy and automated rollbacks.
+**Impact:** Transforms hours of manual spreadsheet auditing into seconds of AI-driven analysis. Provides automated premium dashboards and legal-ready governance PDFs.
 
 ---
 
-### 🔧 AI-Powered Pull Request Automation — Autonomous Code Fixing System
+### 🌌 [Violeta: Enterprise-Grade Multi-Agent Orchestration Ecosystem](https://github.com/juliocode-job/AI-Automation-Portfolio/blob/main/sdk-violeta-multi-agents/PORTFOLIO_PROJECT.md)
+
+**Problem:** Organizations face "Agent Sprawl"—where agent logic, prompts, and model configurations are hardcoded, fragmented, and lack centralized governance or observability as AI adoption scales.
+
+**Solution:** Architected a modular, scalable framework that decouples agent configuration from execution logic. Features a Centralized Registry (Control Plane) for versioned metadata and a Developer SDK (Data Plane) that standardizes the development lifecycle. Includes a modular middleware system for swappable business logic and built-in tracing.
+
+**Stack:** Python, TypeScript, LangChain, FastAPI, Kubernetes (K8s), Docker, LiteLLM, Langfuse, Azure OpenAI.
+
+**Impact:** Enabled deployment of 50+ specialized agents with 60% reduction in production troubleshooting time. Eliminated "shadow AI" through centralized governance.
+
+---
+
+### 🔧 [AI-Powered Pull Request Automation — Autonomous Code Fixing System](https://github.com/juliocode-job/AI-Automation-Portfolio/blob/main/n8n-bug-fixing-system/README.md)
 
 **Problem:** Development teams spend significant time on repetitive bug fixes and manual PR creation. Error-to-fix cycles are slow, and there's no systematic way to ensure proposed changes are safe and minimal before human review.
 
-**Solution:** Built an end-to-end automation system that transforms error reports into validated pull requests. Uses Claude Opus for error analysis and constraint planning, Claude Sonnet for minimal diff generation. Features a 6-layer validation system (status, confidence, diff existence, language consistency, change limits, line verification) with safe fallbacks and review flagging for uncertain fixes.
+**Solution:** Built an end-to-end automation system that transforms error reports into validated pull requests. Uses Claude Opus for error analysis and constraint planning, Claude Sonnet for minimal diff generation. Features a 6-layer validation system (status, confidence, diff existence, language consistency, change limits, line verification).
 
-**Stack:** n8n, Claude Opus, Claude Sonnet, GitHub API, Webhooks
+**Stack:** n8n, Claude Opus, Claude Sonnet, GitHub API, Webhooks.
 
-**Impact:** Automated the entire error-to-PR pipeline while keeping humans in the loop. PRs include AI justification and confidence levels. System tracks approval/rejection outcomes for continuous improvement.
+**Impact:** Automated the entire error-to-PR pipeline while keeping humans in the loop. PRs include AI justification and confidence levels.
 
 ---
 
-### 🎯 Agentic Market Research Team — Autonomous AI Intelligence System
+### 🎯 [Agentic Market Research Team — Autonomous AI Intelligence System](https://github.com/juliocode-job/AI-Automation-Portfolio/blob/main/agentic-slack-langgraph/README.md)
 
-**Problem:** Companies struggle to understand their customers' psychological drivers, losing deals to competitors who "speak their language." Traditional market research delivers generic personas that miss unconscious motivations. Managing multiple AI agents typically requires complex orchestration and lacks persistent learning.
+**Problem:** Companies struggle to understand their customers' psychological drivers. Managing multiple AI agents typically requires complex orchestration and lacks persistent learning.
 
-**Solution:** Architected a Level 5 autonomous agent system with 6 specialized AI agents that decode customer psychology at depth. Features persistent memory via Qdrant vector database, enabling agents to learn from every interaction. Agents collaborate through LangGraph workflows, accessible through natural Slack commands for non-technical users.
+**Solution:** Architected a Level 5 autonomous agent system with 6 specialized AI agents that decode customer psychology. Features persistent memory via Qdrant vector database and collaborative LangGraph workflows, accessible through natural Slack commands.
 
-**Stack:** Python, LangChain, LangGraph, Anthropic Claude, Qdrant, Slack Bolt, Sentence Transformers, FastAPI, Docker
+**Stack:** Python, LangChain, LangGraph, Anthropic Claude, Qdrant, Slack Bolt, FastAPI, Docker.
 
 **Impact:** 3x higher conversion rates using extracted language patterns. Reduced market research time from weeks to hours with continuous autonomous improvement.
-
----
-
-### 🧠 TeamBrain MVP — Secure Enterprise AI Agent
-
-**Problem:** Employees waste hours searching for information across siloed wikis, drives, and documents. No guarantee users only access data they're authorized to see.
-
-**Solution:** Built an enterprise AI assistant with a secure, ACL-aware RAG pipeline. Checks user permissions before retrieving information from vector database, ensuring data security at the core of every response.
-
-**Stack:** Python, LangChain, RAG, Flask, OpenAI GPT-4o, ChromaDB, Docker
-
-**Impact:** Instant access to authorized information with enforced access controls, significantly reducing internal data leak risk.
-
----
-
-### 🤖 Autonomous AI Sales Agent for Lead Outreach
-
-**Problem:** Sales teams losing time on manual lead qualification and follow-ups, causing high-value leads to slip through.
-
-**Solution:** Built a 24/7 autonomous agent that perceives customer data, reasons to qualify leads, and acts by sending hyper-personalized emails and booking meetings. Uses vector database for long-term memory and context-aware interactions.
-
-**Stack:** Agentic AI, n8n, OpenAI, Supabase (Vector Database)
-
-**Impact:** Eliminated outreach bottleneck, allowing sales team to focus 100% on closing deals.
-
----
-
-### 🎙️ ConvoBot — Intelligent AI Meeting Assistant
-
-**Problem:** Critical decisions and action items lost in manual note-taking during meetings.
-
-**Solution:** Developed a voice-activated AI agent that joins meetings (Google Meet, Zoom), provides real-time transcription, and delivers intelligent summaries. Uses RAG to create a searchable knowledge base of all past conversations.
-
-**Stack:** Voice AI, RAG, LangChain, Whisper, FastAPI
-
-**Impact:** Automated 100% of note-taking, reduced post-meeting admin work by 90%.
-
----
-
-### ⚙️ ZESU — Intelligent Automation for IT Support
-
-**Problem:** Enterprise IT team overwhelmed with repetitive Level 2 support requests, causing delays and pulling senior staff from critical incidents.
-
-**Solution:** Implemented an internal AI chatbot using RAG pipeline to securely access internal knowledge bases, providing real-time guidance for 143+ distinct IT procedures.
-
-**Stack:** AI Agents, RAG, LangChain, TARS
-
-**Impact:** Reduced L2 query response times by 40%, increased IT team productivity.
-
----
-
-### 🎓 AI Tutor Evaluation for EdTech Safety & Efficacy
-
-**Problem:** EdTech client needed to integrate LLMs as AI tutors but faced risks from hallucinations that could harm learner trust.
-
-**Solution:** Developed comprehensive evaluation framework and multi-faceted rubric to benchmark LLM performance and safety for educational use.
-
-**Stack:** LLM Evaluation, Responsible AI, Prompt Engineering
-
-**Impact:** Recommendations led to 25% reduction in model hallucinations on key subjects.
 
 ---
 
